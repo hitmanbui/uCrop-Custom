@@ -15,22 +15,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f3e15a-3b99-44e3-947e-97205402a4da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ucrop/src/main/res/drawable-xhdpi/done_btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ucrop/src/main/res/drawable-xhdpi/rotate_left_ic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ucrop/src/main/res/drawable-xhdpi/rotate_right_ic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sample/uCrop.sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sample/uCrop.sample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/ucrop/uCrop.ucrop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ucrop/uCrop.ucrop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ucrop/src/main/java/com/yalantis/ucrop/UCropActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucrop/src/main/java/com/yalantis/ucrop/UCropActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ucrop/src/main/java/com/yalantis/ucrop/view/GestureCropImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucrop/src/main/java/com/yalantis/ucrop/view/GestureCropImageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ucrop/src/main/res/layout/ucrop_controls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ucrop/src/main/res/layout/ucrop_controls.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ucrop/src/main/res/layout/ucrop_layout_scale_wheel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ucrop/src/main/res/layout/ucrop_layout_scale_wheel.xml" afterDir="false" />
-    </list>
+    <list default="true" id="14f3e15a-3b99-44e3-947e-97205402a4da" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,6 +139,14 @@
       <option name="presentableId" value="Default" />
       <updated>1632699112584</updated>
     </task>
+    <task id="LOCAL-00001" summary="Custom theo design app">
+      <created>1632819415851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632819415851</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +191,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Custom theo design app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom theo design app" />
+  </component>
   <component name="WindowStateProjectService">
     <state width="1396" height="103" key="GridCell.Tab.0.bottom" timestamp="1632818610919">
       <screen x="0" y="25" width="1440" height="807" />
@@ -219,14 +216,14 @@
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="221" y="64" key="SettingsEditor/0.25.1440.807@0.25.1440.807" timestamp="1632700878090" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1632700066015">
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1632819425797">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1632700066015" />
-    <state x="412" y="183" width="615" height="490" key="find.popup" timestamp="1632818454128">
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1632819425797" />
+    <state x="412" y="183" width="615" height="490" key="find.popup" timestamp="1632819260822">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
-    <state x="412" y="183" width="615" height="490" key="find.popup/0.25.1440.807@0.25.1440.807" timestamp="1632818454128" />
+    <state x="412" y="183" width="615" height="490" key="find.popup/0.25.1440.807@0.25.1440.807" timestamp="1632819260822" />
     <state x="412" y="183" width="615" height="492" key="find.popup/0.25.1440.809@0.25.1440.809" timestamp="1632815625827" />
   </component>
 </project>
