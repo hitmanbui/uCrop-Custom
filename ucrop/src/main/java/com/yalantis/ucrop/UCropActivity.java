@@ -513,10 +513,32 @@ public class UCropActivity extends AppCompatActivity {
                 resetRotation();
             }
         });
+
         findViewById(R.id.wrapper_rotate_by_angle).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 rotateByAngle(90);
+            }
+        });
+
+        findViewById(R.id.btnRotateRight).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                rotateByAngle(90);
+            }
+        });
+
+        findViewById(R.id.btnRotateLeft).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                rotateByAngle(-90);
+            }
+        });
+
+        findViewById(R.id.btnDone).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                cropAndSaveImage();
             }
         });
         setAngleTextColor(mActiveControlsWidgetColor);

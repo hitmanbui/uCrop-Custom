@@ -3,12 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:padding="15dp"
     android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnRotateRight"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rotate_right_ic"/>
+
+    <Button
+        android:id="@+id/btnRotateLeft"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rotate_left_ic"/>
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/done_btn"/>
 
     <FrameLayout
         android:id="@+id/wrapper_controls"
         android:layout_width="match_parent"
         android:layout_height="@dimen/ucrop_height_wrapper_controls"
+        android:visibility="gone"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="0dp">
 
@@ -38,6 +61,7 @@
         android:id="@+id/controls_shadow"
         android:layout_width="match_parent"
         android:layout_height="8dp"
+        android:visibility="gone"
         android:layout_alignBottom="@+id/wrapper_controls"
         android:src="@drawable/ucrop_shadow_upside" />
 
@@ -46,6 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/ucrop_height_wrapper_states"
         android:layout_below="@+id/controls_shadow"
+        android:visibility="gone"
         android:background="@color/ucrop_color_widget_background"
         android:baselineAligned="false"
         android:gravity="center"
