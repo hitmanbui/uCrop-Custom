@@ -3,6 +3,7 @@ package com.yalantis.ucrop.view;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.RectF;
@@ -217,7 +218,7 @@ public class OverlayView extends View {
      * Setter for crop grid corner color
      */
     public void setCropGridCornerColor(@ColorInt int color) {
-        mCropFrameCornersPaint.setColor(color);
+        mCropFrameCornersPaint.setColor(Color.parseColor("#14928E"));
     }
 
     /**
@@ -557,7 +558,8 @@ public class OverlayView extends View {
         mCropFramePaint.setColor(cropFrameColor);
         mCropFramePaint.setStyle(Paint.Style.STROKE);
 
-        mCropFrameCornersPaint.setStrokeWidth(cropFrameStrokeSize * 3);
+//        mCropFrameCornersPaint.setStrokeWidth(cropFrameStrokeSize * 3);
+        mCropFrameCornersPaint.setStrokeWidth(12);
         mCropFrameCornersPaint.setColor(cropFrameColor);
         mCropFrameCornersPaint.setStyle(Paint.Style.STROKE);
     }
