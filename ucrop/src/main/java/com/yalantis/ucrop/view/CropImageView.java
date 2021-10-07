@@ -52,6 +52,7 @@ public class CropImageView extends TransformImageView {
 
     private float mMaxScale, mMinScale;
     private int mMaxResultImageSizeX = 0, mMaxResultImageSizeY = 0;
+    private float pX = 0, pY = 0;
     private long mImageToWrapCropBoundsAnimDuration = DEFAULT_IMAGE_TO_CROP_BOUNDS_ANIM_DURATION;
 
     public CropImageView(Context context) {
@@ -121,6 +122,12 @@ public class CropImageView extends TransformImageView {
                 cropRect.right - getPaddingRight(), cropRect.bottom - getPaddingBottom());
         calculateImageScaleBounds();
         setImageToWrapCropBounds();
+        if(pX == 0) {
+            this.pX = mCropRect.centerX();
+        }
+        if(pY == 0) {
+            this.pY = mCropRect.centerY();
+        }
     }
 
     /**
@@ -254,6 +261,10 @@ public class CropImageView extends TransformImageView {
         postRotate(deltaAngle, mCropRect.centerX(), mCropRect.centerY());
     }
 
+    public void postRotate1(float deltaAngle) {
+        postRotate(deltaAngle, pX, pY);
+    }
+
     /**
      * This method cancels all current Runnable objects that represent animations.
      */
@@ -263,7 +274,11 @@ public class CropImageView extends TransformImageView {
     }
 
     public void setImageToWrapCropBounds() {
-        setImageToWrapCropBounds(true);
+//        setImageToWrapCropBounds(true);
+    }
+
+    public void setCenter() {
+
     }
 
     /**

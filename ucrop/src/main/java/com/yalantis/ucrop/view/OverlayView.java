@@ -10,6 +10,7 @@ import android.graphics.RectF;
 import android.graphics.Region;
 import android.os.Build;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -245,12 +246,13 @@ public class OverlayView extends View {
         if (height > mThisHeight) {
             int width = (int) (mThisHeight * mTargetAspectRatio);
             int halfDiff = (mThisWidth - width) / 2;
-            mCropViewRect.set(getPaddingLeft() + halfDiff, getPaddingTop(),
-                    getPaddingLeft() + width + halfDiff, getPaddingTop() + mThisHeight);
+            mCropViewRect.set(getPaddingLeft() + halfDiff + 50, getPaddingTop(),
+                    getPaddingLeft() + width + halfDiff - 50, getPaddingTop() + mThisHeight);
         } else {
+            Log.d("setupCropBounds", "height <= mThisHeight");
             int halfDiff = (mThisHeight - height) / 2;
-            mCropViewRect.set(getPaddingLeft(), getPaddingTop() + halfDiff,
-                    getPaddingLeft() + mThisWidth, getPaddingTop() + height + halfDiff);
+            mCropViewRect.set(getPaddingLeft() + 50, getPaddingTop() + halfDiff,
+                    getPaddingLeft() + mThisWidth - 50, getPaddingTop() + height + halfDiff);
         }
 
         if (mCallback != null) {

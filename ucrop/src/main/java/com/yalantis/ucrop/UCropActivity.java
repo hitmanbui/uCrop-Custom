@@ -329,6 +329,7 @@ public class UCropActivity extends AppCompatActivity {
             setupRotateWidget();
             setupScaleWidget();
             setupStatesWrapper();
+
         }
     }
 
@@ -474,8 +475,8 @@ public class UCropActivity extends AppCompatActivity {
             cropAspectRatioView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    mGestureCropImageView.setTargetAspectRatio(
-                            ((AspectRatioTextView) ((ViewGroup) v).getChildAt(0)).getAspectRatio(v.isSelected()));
+                    mGestureCropImageView.setTargetAspectRatio(((AspectRatioTextView) ((ViewGroup) v)
+                                    .getChildAt(0)).getAspectRatio(v.isSelected()));
                     mGestureCropImageView.setImageToWrapCropBounds();
                     if (!v.isSelected()) {
                         for (ViewGroup cropAspectRatioView : mCropAspectRatioViews) {
@@ -607,7 +608,7 @@ public class UCropActivity extends AppCompatActivity {
     }
 
     private void rotateByAngle(int angle) {
-        mGestureCropImageView.postRotate(angle);
+        mGestureCropImageView.postRotate1(angle);
         mGestureCropImageView.setImageToWrapCropBounds();
     }
 
