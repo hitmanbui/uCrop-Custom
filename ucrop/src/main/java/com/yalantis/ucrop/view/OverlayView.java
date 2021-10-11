@@ -241,6 +241,7 @@ public class OverlayView extends View {
      * This method setups crop bounds rectangles for given aspect ratio and view size.
      * {@link #mCropViewRect} is used to draw crop bounds - uses padding.
      */
+    // Sửa độ lớn corner
     public void setupCropBounds() {
         int height = (int) (mThisWidth / mTargetAspectRatio);
         if (height > mThisHeight) {
@@ -249,7 +250,6 @@ public class OverlayView extends View {
             mCropViewRect.set(getPaddingLeft() + halfDiff + 50, getPaddingTop(),
                     getPaddingLeft() + width + halfDiff - 50, getPaddingTop() + mThisHeight);
         } else {
-            Log.d("setupCropBounds", "height <= mThisHeight");
             int halfDiff = (mThisHeight - height) / 2;
             mCropViewRect.set(getPaddingLeft() + 50, getPaddingTop() + halfDiff,
                     getPaddingLeft() + mThisWidth - 50, getPaddingTop() + height + halfDiff);

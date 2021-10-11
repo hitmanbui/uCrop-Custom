@@ -115,27 +115,7 @@ public class TransformImageView extends AppCompatImageView {
 
     @Override
     public void setImageBitmap(final Bitmap bitmap) {
-//        Bitmap newBitmap = getResizedBitmap(bitmap, 384);
         setImageDrawable(new FastBitmapDrawable(bitmap));
-    }
-
-    public Bitmap getResizedBitmap(Bitmap bm, int newWidth) {
-        int width = bm.getWidth();
-        int height = bm.getHeight();
-        int newHeight = height*newWidth/width;
-        Log.d("setupCropBounds", width + "");
-        float scaleWidth = ((float) newWidth) / width;
-        float scaleHeight = ((float) newHeight) / height;
-        // CREATE A MATRIX FOR THE MANIPULATION
-        Matrix matrix = new Matrix();
-        // RESIZE THE BIT MAP
-        matrix.postScale(scaleWidth, scaleHeight);
-
-        // "RECREATE" THE NEW BITMAP
-        Bitmap resizedBitmap = Bitmap.createBitmap(
-                bm, 0, 0, width, height, matrix, false);
-        bm.recycle();
-        return resizedBitmap;
     }
 
     public String getImageInputPath() {
@@ -158,9 +138,6 @@ public class TransformImageView extends AppCompatImageView {
      */
     public void setImageUri(@NonNull Uri imageUri, @Nullable Uri outputUri) throws Exception {
         int maxBitmapSize = getMaxBitmapSize();
-
-//        int maxBitmapSize = 384;
-//        Log.d("setupCropBounds", maxBitmapSize + "");
 
         BitmapLoadUtils.decodeBitmapInBackground(getContext(), imageUri, outputUri, maxBitmapSize, maxBitmapSize,
                 new BitmapLoadCallback() {
