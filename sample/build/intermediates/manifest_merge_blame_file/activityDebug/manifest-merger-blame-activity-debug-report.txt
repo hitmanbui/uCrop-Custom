@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yalantis.ucrop.sample"
+4    android:versionCode="13"
+5    android:versionName="1.2.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:5:5-80
+11-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:7:5-67
+13-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:7:22-64
+14
+15    <application
+15-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:9:5-44:19
+16        android:allowBackup="false"
+16-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:10:9-36
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /Users/anhbt/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:13:9-41
+21        android:requestLegacyExternalStorage="true"
+21-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:12:9-52
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:14:9-40
+24        <provider
+24-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:15:9-23:20
+25            android:name="androidx.core.content.FileProvider"
+25-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:16:13-62
+26            android:authorities="@string/file_provider_authorities"
+26-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:17:13-68
+27            android:exported="false"
+27-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:18:13-37
+28            android:grantUriPermissions="true" >
+28-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:19:13-47
+29            <meta-data
+29-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:20:13-22:63
+30                android:name="android.support.FILE_PROVIDER_PATHS"
+30-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:21:17-67
+31                android:resource="@xml/file_provider_paths" />
+31-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:22:17-60
+32        </provider>
+33
+34        <activity
+34-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:25:9-33:20
+35            android:name="com.yalantis.ucrop.sample.SampleActivity"
+35-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:26:13-43
+36            android:screenOrientation="portrait" >
+36-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:27:13-49
+37            <intent-filter>
+37-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:28:13-32:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:29:17-69
+38-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:31:17-77
+40-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:31:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:35:9-37:52
+44            android:name="com.yalantis.ucrop.sample.ResultActivity"
+44-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:36:13-43
+45            android:screenOrientation="portrait" />
+45-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:37:13-49
+46        <activity
+46-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:39:9-42:72
+47            android:name="com.yalantis.ucrop.UCropActivity"
+47-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:40:13-60
+48            android:screenOrientation="portrait"
+48-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:41:13-49
+49            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+49-->/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/src/main/AndroidManifest.xml:42:13-69
+50    </application>
+51
+52</manifest>

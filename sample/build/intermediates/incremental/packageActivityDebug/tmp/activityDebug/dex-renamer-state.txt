@@ -1,0 +1,4 @@
+#Tue Jul 19 06:37:53 ICT 2022
+base.0=/Users/anhbt/Documents/AndroidProjects/uCrop-Custom-main/sample/build/intermediates/dex/activityDebug/mergeDexActivityDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

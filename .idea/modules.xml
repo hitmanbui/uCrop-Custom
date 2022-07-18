@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uCrop-Custom-main.iml" filepath="$PROJECT_DIR$/.idea/modules/uCrop-Custom-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/uCrop-Custom-main.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/uCrop-Custom-main.sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ucrop/uCrop-Custom-main.ucrop.iml" filepath="$PROJECT_DIR$/.idea/modules/ucrop/uCrop-Custom-main.ucrop.iml" />
+    </modules>
+  </component>
+</project>

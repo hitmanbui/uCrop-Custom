@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":13,"versionName":"1.2.4","enabled":true,"outputFile":"sample-activity-debug.apk","fullName":"activityDebug","baseName":"activity-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.yalantis.ucrop.sample","split":"","minSdkVersion":"14"}}]
