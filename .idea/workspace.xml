@@ -22,7 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f3e15a-3b99-44e3-947e-97205402a4da" name="Default Changelist" comment="">
+    <list default="true" id="14f3e15a-3b99-44e3-947e-97205402a4da" name="Default Changelist" comment="edit ucrop_default_crop_rect_min_size">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633937826951</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edit ucrop_default_crop_rect_min_size">
+      <created>1658198762667</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658198762667</updated>
+    </task>
+    <task id="LOCAL-00008" summary="edit ucrop_default_crop_rect_min_size">
+      <created>1658199561385</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658199561385</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,46 +268,5 @@
     <MESSAGE value="custom size" />
     <MESSAGE value="edit ucrop_default_crop_rect_min_size" />
     <option name="LAST_COMMIT_MESSAGE" value="edit ucrop_default_crop_rect_min_size" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1396" height="102" key="GridCell.Tab.0.bottom" timestamp="1633937858894">
-      <screen x="0" y="25" width="1440" height="807" />
-    </state>
-    <state width="1396" height="205" key="GridCell.Tab.0.bottom/0.25.1440.805@0.25.1440.805" timestamp="1633632940118" />
-    <state width="1396" height="102" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1633937858894" />
-    <state width="1396" height="102" key="GridCell.Tab.0.center" timestamp="1633937858893">
-      <screen x="0" y="25" width="1440" height="807" />
-    </state>
-    <state width="1396" height="205" key="GridCell.Tab.0.center/0.25.1440.805@0.25.1440.805" timestamp="1633632940117" />
-    <state width="1396" height="102" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1633937858893" />
-    <state width="1396" height="102" key="GridCell.Tab.0.left" timestamp="1633937858893">
-      <screen x="0" y="25" width="1440" height="807" />
-    </state>
-    <state width="1396" height="205" key="GridCell.Tab.0.left/0.25.1440.805@0.25.1440.805" timestamp="1633632940116" />
-    <state width="1396" height="102" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1633937858893" />
-    <state width="1396" height="102" key="GridCell.Tab.0.right" timestamp="1633937858894">
-      <screen x="0" y="25" width="1440" height="807" />
-    </state>
-    <state width="1396" height="205" key="GridCell.Tab.0.right/0.25.1440.805@0.25.1440.805" timestamp="1633632940117" />
-    <state width="1396" height="102" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1633937858894" />
-    <state x="221" y="64" key="SettingsEditor" timestamp="1632700878090">
-      <screen x="0" y="25" width="1440" height="807" />
-    </state>
-    <state x="221" y="64" key="SettingsEditor/0.25.1440.807@0.25.1440.807" timestamp="1632700878090" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1633937839547">
-      <screen x="0" y="25" width="1440" height="807" />
-    </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.805@0.25.1440.805" timestamp="1632957922481" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1633937839547" />
-    <state x="457" y="165" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1632958166262">
-      <screen x="0" y="25" width="1440" height="805" />
-    </state>
-    <state x="457" y="165" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.25.1440.805@0.25.1440.805" timestamp="1632958166262" />
-    <state x="412" y="183" width="615" height="490" key="find.popup" timestamp="1633937292450">
-      <screen x="0" y="25" width="1440" height="807" />
-    </state>
-    <state x="412" y="183" width="615" height="490" key="find.popup/0.25.1440.805@0.25.1440.805" timestamp="1633629876484" />
-    <state x="412" y="183" width="615" height="490" key="find.popup/0.25.1440.807@0.25.1440.807" timestamp="1633937292450" />
-    <state x="412" y="183" width="615" height="492" key="find.popup/0.25.1440.809@0.25.1440.809" timestamp="1632815625827" />
   </component>
 </project>
