@@ -9,6 +9,9 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,20 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14f3e15a-3b99-44e3-947e-97205402a4da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ucrop/src/main/java/com/yalantis/ucrop/view/OverlayView.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucrop/src/main/java/com/yalantis/ucrop/view/OverlayView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ucrop/src/main/java/com/yalantis/ucrop/view/TransformImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucrop/src/main/java/com/yalantis/ucrop/view/TransformImageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ucrop/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ucrop/src/main/res/values/dimens.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R58R10ZWKWA]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R58N34BHKKM]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -52,6 +49,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-09-28T08:29:54.607Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="android-custom-view/Users/anhbt/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/widget/AppCompatImageView.java_SELECTED" value="AppCompatImageView" />
     <property name="android-custom-view/Users/anhbt/Documents/AndroidProjects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/CropImageView.java_SELECTED" value="CropImageView" />
     <property name="android-custom-view/Users/anhbt/Documents/AndroidProjects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/GestureCropImageView.java_SELECTED" value="GestureCropImageView" />
@@ -60,6 +58,7 @@
     <property name="android-custom-view/Users/anhbt/Documents/AndroidProjects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/UCropView.java_SELECTED" value="UCropView" />
     <property name="android-custom-view/Users/anhbt/Documents/AndroidProjects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/widget/AspectRatioTextView.java_SELECTED" value="AspectRatioTextView" />
     <property name="android-custom-view/Users/anhbt/Documents/AndroidProjects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/widget/HorizontalProgressWheelView.java_SELECTED" value="HorizontalProgressWheelView" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="multi-representation-preview/Users/anhbt/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/widget/AppCompatImageView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/anhbt/Documents/AndroidProjects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/CropImageView.java_selected" value="Custom views" />
@@ -96,6 +95,7 @@
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -103,6 +103,7 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -146,6 +147,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -192,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633632968508</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit ucrop_default_crop_rect_min_size">
+      <created>1633937826951</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633937826951</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,38 +251,39 @@
     <MESSAGE value="Custom grid corner" />
     <MESSAGE value="add tag" />
     <MESSAGE value="custom size" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom size" />
+    <MESSAGE value="edit ucrop_default_crop_rect_min_size" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit ucrop_default_crop_rect_min_size" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1396" height="205" key="GridCell.Tab.0.bottom" timestamp="1633632940118">
-      <screen x="0" y="25" width="1440" height="805" />
+    <state width="1396" height="102" key="GridCell.Tab.0.bottom" timestamp="1633937858894">
+      <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state width="1396" height="205" key="GridCell.Tab.0.bottom/0.25.1440.805@0.25.1440.805" timestamp="1633632940118" />
-    <state width="1396" height="103" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1632818610919" />
-    <state width="1396" height="205" key="GridCell.Tab.0.center" timestamp="1633632940117">
-      <screen x="0" y="25" width="1440" height="805" />
+    <state width="1396" height="102" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1633937858894" />
+    <state width="1396" height="102" key="GridCell.Tab.0.center" timestamp="1633937858893">
+      <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state width="1396" height="205" key="GridCell.Tab.0.center/0.25.1440.805@0.25.1440.805" timestamp="1633632940117" />
-    <state width="1396" height="103" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1632818610918" />
-    <state width="1396" height="205" key="GridCell.Tab.0.left" timestamp="1633632940116">
-      <screen x="0" y="25" width="1440" height="805" />
+    <state width="1396" height="102" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1633937858893" />
+    <state width="1396" height="102" key="GridCell.Tab.0.left" timestamp="1633937858893">
+      <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state width="1396" height="205" key="GridCell.Tab.0.left/0.25.1440.805@0.25.1440.805" timestamp="1633632940116" />
-    <state width="1396" height="103" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1632818610918" />
-    <state width="1396" height="205" key="GridCell.Tab.0.right" timestamp="1633632940117">
-      <screen x="0" y="25" width="1440" height="805" />
+    <state width="1396" height="102" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1633937858893" />
+    <state width="1396" height="102" key="GridCell.Tab.0.right" timestamp="1633937858894">
+      <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state width="1396" height="205" key="GridCell.Tab.0.right/0.25.1440.805@0.25.1440.805" timestamp="1633632940117" />
-    <state width="1396" height="103" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1632818610918" />
+    <state width="1396" height="102" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1633937858894" />
     <state x="221" y="64" key="SettingsEditor" timestamp="1632700878090">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="221" y="64" key="SettingsEditor/0.25.1440.807@0.25.1440.807" timestamp="1632700878090" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1632957922481">
-      <screen x="0" y="25" width="1440" height="805" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1633937839547">
+      <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.805@0.25.1440.805" timestamp="1632957922481" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1632819512694" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1633937839547" />
     <state x="457" y="165" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1632958166262">
       <screen x="0" y="25" width="1440" height="805" />
     </state>

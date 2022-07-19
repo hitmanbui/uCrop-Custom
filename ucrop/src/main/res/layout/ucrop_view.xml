@@ -17,4 +17,29 @@
         android:layout_height="match_parent"
         android:padding="@dimen/ucrop_padding_crop_frame"/>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:layout_gravity="bottom|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ucrop_ic_crop"
+            android:drawablePadding="5dp"
+            android:text="Vui lòng chỉ cắt 1 câu hỏi"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ảnh có nhiều câu hỏi sẽ bị hoàn trả"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
 </merge>
