@@ -24,6 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="14f3e15a-3b99-44e3-947e-97205402a4da" name="Default Changelist" comment="edit ucrop_default_crop_rect_min_size">
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucrop/src/main/res/layout/ucrop_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ucrop/src/main/res/layout/ucrop_view.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,12 @@
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1yhLwc2f98PDkMucuMjdOspM5Td" />
@@ -229,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658202066621</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="edit ucrop_default_crop_rect_min_size">
+      <created>1658202640924</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658202640924</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +277,14 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="60" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="60" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

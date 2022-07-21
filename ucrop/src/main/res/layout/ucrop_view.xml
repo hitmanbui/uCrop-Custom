@@ -31,15 +31,9 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ucrop_ic_crop"
             android:drawablePadding="5dp"
-            android:text="Vui lòng chỉ cắt 1 câu hỏi"
+            android:gravity="center"
+            android:text="Vui lòng cắt đúng phần ảnh \ncó nội dung câu hỏi hoặc trả lời"
             android:textSize="14sp"
-            android:textColor="@android:color/white"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Ảnh có nhiều câu hỏi sẽ bị hoàn trả"
-            android:textSize="12sp"
             android:textColor="@android:color/white"/>
     </LinearLayout>
 </merge>
