@@ -300,6 +300,7 @@ public class UCrop {
         public static final String EXTRA_ASPECT_RATIO_OPTIONS = EXTRA_PREFIX + ".AspectRatioOptions";
 
         public static final String EXTRA_UCROP_ROOT_VIEW_BACKGROUND_COLOR = EXTRA_PREFIX + ".UcropRootViewBackgroundColor";
+        public static final String EXTRA_UCROP_CAMERA_MESSAGE = EXTRA_PREFIX + ".UcropCameraMessage";
 
 
         private final Bundle mOptionBundle;
@@ -473,6 +474,10 @@ public class UCrop {
          */
         public void setToolbarTitle(@Nullable String text) {
             mOptionBundle.putString(EXTRA_UCROP_TITLE_TEXT_TOOLBAR, text);
+        }
+
+        public void setCameraMessage(@Nullable String text) {
+            mOptionBundle.putString(EXTRA_UCROP_CAMERA_MESSAGE, text);
         }
 
         /**

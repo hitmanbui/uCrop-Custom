@@ -85,6 +85,7 @@ public class UCropActivity extends AppCompatActivity {
     private static final int ROTATE_WIDGET_SENSITIVITY_COEFFICIENT = 42;
 
     private String mToolbarTitle;
+    private String mCameraMessage;
 
     // Enables dynamic coloring
     private int mToolbarColor;
@@ -300,9 +301,16 @@ public class UCropActivity extends AppCompatActivity {
         mLogoColor = intent.getIntExtra(UCrop.Options.EXTRA_UCROP_LOGO_COLOR, ContextCompat.getColor(this, R.color.ucrop_color_default_logo));
         mShowBottomControls = !intent.getBooleanExtra(UCrop.Options.EXTRA_HIDE_BOTTOM_CONTROLS, false);
         mRootViewBackgroundColor = intent.getIntExtra(UCrop.Options.EXTRA_UCROP_ROOT_VIEW_BACKGROUND_COLOR, ContextCompat.getColor(this, R.color.ucrop_color_crop_background));
+        mCameraMessage = intent.getStringExtra(UCrop.Options.EXTRA_UCROP_CAMERA_MESSAGE);
 
         setupAppBar();
         initiateRootViews();
+
+        if(mCameraMessage != null && !mCameraMessage.isEmpty()) {
+            mUCropView.txtMessage.setText(mCameraMessage);
+        }  else {
+            mUCropView.txtMessage.setText("Vui lòng cắt đúng phần ảnh \\ncó nội dung câu hỏi hoặc trả lời");
+        }
 
         if (mShowBottomControls) {
 
